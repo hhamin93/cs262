@@ -14,6 +14,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -45,11 +47,23 @@ public class MainActivity extends AppCompatActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+        switch (item.getItemId()){
+            case R.id.action_order:
+                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+                intent.putExtra(EXTRA_MESSAGE, R.string.action_order_message);
+                startActivity(intent);
+                return true;
+            case R.id.action_status:
+                displayToast(getString(R.string.action_status_message));
+                return true;
+            case R.id.action_favorites:
+                displayToast((getString(R.string.action_favorites_message)));
+                return true;
+            case R.id.action_contact:
+                displayToast(getString(R.string.action_contact_message));
+                return true;
+                default:
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
         }
 
         return super.onOptionsItemSelected(item);
