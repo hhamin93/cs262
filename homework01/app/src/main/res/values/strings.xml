@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">homewok01</string>
+    <string name="value_1">Value 1:</string>
+    <string name="value_2">Value 2:</string>
+    <string name="operator">Operator:</string>
+    <string name="calculate">Calculate</string>
+    <string name="hint_value1">enter in the first value</string>
+    <string name="hint_value2">enter in the second value</string>
+    <string-array name="operator_array">
+        <item>+</item>
+        <item>-</item>
+        <item>/</item>
+        <item>*</item>
+    </string-array>
+</resources>
