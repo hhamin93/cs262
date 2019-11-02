@@ -1,4 +1,4 @@
-package edu.calvin.cs262.wp22;
+package edu.calvin.cs262.hh32;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,7 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import edu.calvin.cs262.hh32.R;
 
 import android.view.View;
 import android.view.Menu;

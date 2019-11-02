@@ -1,6 +1,7 @@
-package edu.calvin.cs262.wp22;
+package edu.calvin.cs262.hh32;
 
 import androidx.appcompat.app.AppCompatActivity;
+import edu.calvin.cs262.hh32.R;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package edu.calvin.cs262.wp22;
+package edu.calvin.cs262.hh32;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;

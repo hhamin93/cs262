@@ -1,4 +1,4 @@
-package edu.calvin.cs262.wp22;
+package edu.calvin.cs262.hh32;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+import edu.calvin.cs262.hh32.R;
 
 import java.util.List;
 
